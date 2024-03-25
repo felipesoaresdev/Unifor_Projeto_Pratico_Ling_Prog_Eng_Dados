@@ -22,10 +22,10 @@ Para executar este script, você precisará ter Python instalado em seu sistema.
 
 1.  Certifique-se de ter Python instalado em seu sistema.
 2.  Clone este repositório em seu ambiente local.
-3.  Execute o script `processamento_dados_ibge.py`.
+3.  Execute o script `processamento_dados_ibge.ipynb`.
 4.  Aguarde até que o script processe os arquivos CSV e insira os dados no banco de dados SQLite.
 5.  Após a execução bem-sucedida, você poderá realizar consultas SQL diretamente no banco de dados ou utilizar o banco de dados em outras aplicações.
 
 ## Autor
 
-Este projeto foi desenvolvido por Felipe Soares Ferreira e Winiston Freitas.
+Este projeto foi desenvolvido por Felipe Soares Ferreira e Winiston Vieira de Freitas.
