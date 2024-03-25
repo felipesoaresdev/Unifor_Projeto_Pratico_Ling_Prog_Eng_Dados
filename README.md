@@ -1,6 +1,6 @@
 # Projeto Pratico - disciplina de linguagens de programação para engenharia de dados
 
-Este é um projeto que visa realizar o processamento de dados provenientes de arquivos CSV fornecidos pelo Instituto Brasileiro de Geografia e Estatística (IBGE). O objetivo é extrair informações contidas nesses arquivos e armazená-las em um banco de dados SQLite para posterior análise.
+Este é um projeto que visa realizar o processamento de dados provenientes de arquivos CSV fornecidos contendo dados o IBGE. O objetivo é extrair informações contidas nesses arquivos e armazená-las em um banco de dados para posterior análise.
 
 ## Pontos de dificuldade
 A manipulação direta dos dados CSV sem o uso de bibliotecas como o Pandas se tornou mais desafiadora.
