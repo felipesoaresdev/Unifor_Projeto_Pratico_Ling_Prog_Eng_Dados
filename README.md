@@ -18,7 +18,7 @@ https://drive.google.com/drive/folders/1NWtp0sb_DXDPXnUdNCal1rzoZw6zMjfc
 
 -   O script lê arquivos CSV contendo dados do IBGE.
 -   Os dados são inseridos em uma tabela no banco de dados SQLite denominada `ENDERECO_IBGE`.
--   Cada arquivo CSV é processado e os dados são inseridos na tabela SQLite.
+-   Cada arquivo CSV é processado e os dados são inseridos na tabela do SQLite.
 -   O script cria um banco de dados SQLite (`DESAFIO_2.db`) se não existir.
 -   Caso a tabela `ENDERECO_IBGE` já exista, ela é eliminada e recriada para evitar duplicatas.
 
@@ -26,9 +26,10 @@ https://drive.google.com/drive/folders/1NWtp0sb_DXDPXnUdNCal1rzoZw6zMjfc
 
 1.  Certifique-se de ter Python instalado em seu sistema.
 2.  Clone este repositório em seu ambiente local.
-3.  Execute o script `processamento_dados_ibge.ipynb`.
-4.  Aguarde até que o script processe os arquivos CSV e insira os dados no banco de dados SQLite.
-5.  Após a execução bem-sucedida, você poderá realizar consultas SQL diretamente no banco de dados ou utilizar o banco de dados em outras aplicações.
+3.  Insira os arquivos baixados na pasta Arquivos.
+4.  Execute o script `processamento_dados_ibge.ipynb`.
+5.  Aguarde até que o script processe os arquivos CSV e insira os dados no banco de dados SQLite.
+6.  Após a execução bem-sucedida, você poderá realizar consultas SQL diretamente no banco de dados ou utilizar o banco de dados em outras aplicações.
 
 ## Autor
 
