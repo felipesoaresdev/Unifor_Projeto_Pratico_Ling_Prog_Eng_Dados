@@ -9,10 +9,13 @@ Foi necessário garantir que os dados lidos do CSV estivessem corretos e formata
 Dependendo do tamanho do arquivo CSV e da quantidade de dados inseridos no banco de dados, a performance da operação de inserção poderia ser completamente afetada. Manipular maiores volumes de dados poderá exigir otimizações adicionais para garantir uma execução eficiente.
 A abertura e o fechamento manual da conexão com o banco de dados podem ser propensos a erros, especialmente se esquecido. Isso gerou alguns problemas de bloqueio do banco de dados durante os testes.
 
-Pontos a favor:
+##Pontos a favor:
 A manipulação direta dos dados CSV e inserção no banco de dados em Python é relativamente simples e direta. Não houve necessidade de aprender novas bibliotecas ou ferramentas complicadas.
+
 Tivemos controle total sobre o processo de manipulação e inserção de dados. Isso permitiu personalizar o fluxo de trabalho de acordo com os requisitos específicos do desafio garantindo a integridade dos dados.
-O uso do Python oferece uma variedade enorme de bibliotecas e ferramentas para manipulação de dados, permitindo adaptar o nosso código conforme necessário e integrá-lo facilmente a outras partes do desenvolvimento.
+
+O uso do Python oferece uma variedade enorme de bibliotecas e ferramentas para manipulação de dados, permitindo adaptar o nosso código conforme necessário e integrá-lo 
+facilmente a outras partes do desenvolvimento.
 
 ## Ferramentas facilitariam a implementação
 Pandas: é uma biblioteca Python amplamente utilizada para manipulação e análise de dados. Ele fornece estruturas de dados e ferramentas poderosas para trabalhar com dados tabulares, incluindo a leitura e escrita de arquivos CSV, além de integração fácil com bancos de dados como SQLite, mysql, postegreSQL...
