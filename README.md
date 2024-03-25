@@ -10,6 +10,10 @@ Para executar este script, você precisará ter Python instalado, Jupyter Notebo
 -   `sqlite3`: para interagir com o banco de dados SQLite.
 -   `pathlib`: para manipulação de caminhos de arquivos.
 
+Ter baixado todos os CSVs através do link abaixo:
+
+https://drive.google.com/drive/folders/1NWtp0sb_DXDPXnUdNCal1rzoZw6zMjfc
+
 ## Funcionalidades
 
 -   O script lê arquivos CSV contendo dados do IBGE.
