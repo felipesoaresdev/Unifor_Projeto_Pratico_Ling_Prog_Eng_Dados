@@ -9,7 +9,7 @@ Foi necessário garantir que os dados lidos do CSV estivessem corretos e formata
 Dependendo do tamanho do arquivo CSV e da quantidade de dados inseridos no banco de dados, a performance da operação de inserção poderia ser completamente afetada. Manipular maiores volumes de dados poderá exigir otimizações adicionais para garantir uma execução eficiente.
 A abertura e o fechamento manual da conexão com o banco de dados podem ser propensos a erros, especialmente se esquecido. Isso gerou alguns problemas de bloqueio do banco de dados durante os testes.
 
-##Pontos a favor:
+## Pontos a favor:
 A manipulação direta dos dados CSV e inserção no banco de dados em Python é relativamente simples e direta. Não houve necessidade de aprender novas bibliotecas ou ferramentas complicadas.
 
 Tivemos controle total sobre o processo de manipulação e inserção de dados. Isso permitiu personalizar o fluxo de trabalho de acordo com os requisitos específicos do desafio garantindo a integridade dos dados.
