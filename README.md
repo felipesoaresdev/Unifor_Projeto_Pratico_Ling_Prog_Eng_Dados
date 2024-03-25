@@ -4,7 +4,7 @@ Este é um projeto que visa realizar o processamento de dados provenientes de ar
 
 ## Requisitos
 
-Para executar este script, você precisará ter Python instalado em seu sistema. Além disso, certifique-se de ter as seguintes bibliotecas Python instaladas:
+Para executar este script, você precisará ter Python instalado, Jupyter Notebook ou similares instalados em seu sistema. Além disso, certifique-se de ter as seguintes bibliotecas Python instaladas:
 
 -   `csv`: para leitura de arquivos CSV.
 -   `sqlite3`: para interagir com o banco de dados SQLite.
