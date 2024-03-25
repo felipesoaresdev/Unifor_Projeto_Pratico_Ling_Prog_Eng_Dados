@@ -2,6 +2,9 @@
 
 Este é um projeto que visa realizar o processamento de dados provenientes de arquivos CSV fornecidos pelo Instituto Brasileiro de Geografia e Estatística (IBGE). O objetivo é extrair informações contidas nesses arquivos e armazená-las em um banco de dados SQLite para posterior análise.
 
+## Pontos de dificuldade
+## Ferramentas facilitariam a implementação
+
 ## Requisitos
 
 Para executar este script, você precisará ter Python instalado, Jupyter Notebook ou similares instalados em seu sistema. Além disso, certifique-se de ter as seguintes bibliotecas Python instaladas:
